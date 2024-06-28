@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "917605902011;GURU;6281255369012;Ash"
+const ownervb = process.env.OWNERS || "918593848438;IZUMIE;919072122261;GAY JINAN"
 
 
 const ownerlist = ownervb.split(';');
@@ -23,9 +23,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['917605902011', '32460248586']
-global.prems = ['917605902011', '32460248586', '919398758484']
-global.allowed = ['917605902011', '32460248586', '19152999993']
+global.mods = ['918593848438', '919961450351']
+global.prems = ['918593848438', '919072122261', '994401873648']
+global.allowed = ['918593848438', '919961450351', '994401873648']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -71,15 +71,15 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'true'
-global.packname = 'GURU┃ᴮᴼᵀ'
-global.author = 'ᴳᵘʳᵘ ˢᵉⁿˢᵉⁱ'
-global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
-global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/guru.json\n'
-global.dygp = 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp'
-global.fgsc = 'https://github.com/Guru322/GURU-BOT'
-global.fgyt = 'https://youtube.com/@Asliguru'
-global.fgpyp = 'https://youtube.com/@Asliguru'
-global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg'
+global.packname = 'ɪɀꪊᴍιꫀ'
+global.author = '᥊ꫀꪀρꪖι'
+global.menuvid = 'https://te.legra.ph/file/aabe0c489be65e1fc3df3.mp4'
+global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/izumie_xenpai\n'
+global.dygp = 'https://chat.whatsapp.com/Krn1VGvyWqP5brTWbNoZsp'
+global.fgsc = 'https://github.com/QUEEN-NISHIMIYA/GURU-BOT'
+global.fgyt = 'https://youtube.com/@IZUMIE_'
+global.fgpyp = 'https://youtube.com/@IZUMIE_'
+global.fglog = 'https://te.legra.ph/file/faff3e7288cddba54aa5a.jpg'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
